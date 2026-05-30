@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-mode="student">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduLens AI | Learning Intelligence</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons (Phosphor Icons - clean, modern) -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <div class="app-container">
+    
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <i class="ph-fill ph-aperture"></i>
+          <span>EduLens</span>
+        </div>
+        <button class="mobile-toggle" id="sidebar-close"><i class="ph ph-x"></i></button>
+      </div>
+      
+      <div class="sidebar-menu">
+        <p class="menu-label">Main Menu</p>
+        <a href="#/dashboard" class="menu-item active" data-route="/dashboard">
+          <i class="ph ph-squares-four"></i>
+          <span>Dashboard</span>
+        </a>
+        <a href="#/student" class="menu-item" data-route="/student">
+          <i class="ph ph-student"></i>
+          <span>Student Analytics</span>
+        </a>
+        <a href="#/teacher" class="menu-item" data-route="/teacher">
+          <i class="ph ph-chalkboard-teacher"></i>
+          <span>Teacher Analytics</span>
+        </a>
+        <a href="#/parent" class="menu-item" data-route="/parent">
+          <i class="ph ph-users"></i>
+          <span>Parent Portal</span>
+        </a>
+        <a href="#/institution" class="menu-item" data-route="/institution">
+          <i class="ph ph-buildings"></i>
+          <span>Institution</span>
+        </a>
+      </div>
+      
+      <div class="sidebar-footer">
+        <div class="user-profile">
+          <div class="avatar">AD</div>
+          <div class="user-info">
+            <span class="name">Admin User</span>
+            <span class="role">System Administrator</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Topbar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="mobile-toggle" id="sidebar-open"><i class="ph ph-list"></i></button>
+          <div class="search-bar">
+            <i class="ph ph-magnifying-glass"></i>
+            <input type="text" placeholder="Search students, classes, or insights...">
+          </div>
+        </div>
+        
+        <div class="topbar-right">
+          <select id="mode-switcher" class="mode-switcher">
+            <option value="student">Student Mode</option>
+            <option value="teacher">Teacher Mode</option>
+            <option value="parent">Parent Mode</option>
+            <option value="institute">Institute Mode</option>
+          </select>
+          <button class="icon-btn" id="assistant-toggle" title="AI Assistant">
+            <i class="ph ph-sparkle"></i>
+          </button>
+          <button class="icon-btn" title="Notifications">
+            <i class="ph ph-bell"></i>
+            <span class="badge">3</span>
+          </button>
+          <button class="icon-btn theme-toggle" id="theme-toggle" title="Toggle Theme">
+            <i class="ph ph-moon"></i>
+          </button>
+        </div>
+      </header>
+      
+      <!-- Dynamic View Container -->
+      <div id="app-root" class="view-container">
+        <!-- Views will be injected here by app.js -->
+        <div class="loading-state">
+          <i class="ph ph-spinner ph-spin"></i>
+          <p>Loading EduLens Engine...</p>
+        </div>
+      </div>
+      
+    </main>
+    
+  </div>
+
+  <!-- Global AI Assistant Panel -->
+  <div id="ai-assistant-panel" class="ai-assistant-panel">
+    <div class="assistant-header">
+      <div class="assistant-title">
+        <i class="ph ph-sparkle" style="color: var(--accent-primary);"></i>
+        <span>EduLens Assistant</span>
+      </div>
+      <button id="assistant-close" class="icon-btn" style="width: 32px; height: 32px; border: none; background: transparent;"><i class="ph ph-x"></i></button>
+    </div>
+    <div id="assistant-chat" class="assistant-chat">
+      <!-- Chat messages will be injected here -->
+    </div>
+    <div class="assistant-input-area">
+      <div id="assistant-suggestions" class="assistant-suggestions">
+        <!-- Quick action buttons injected here -->
+      </div>
+      <div class="input-wrapper">
+        <input type="text" id="assistant-input" placeholder="Ask EduLens AI...">
+        <button id="assistant-send" class="icon-btn send-btn"><i class="ph ph-paper-plane-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./js/components.js"></script>
+  <script src="./js/views.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

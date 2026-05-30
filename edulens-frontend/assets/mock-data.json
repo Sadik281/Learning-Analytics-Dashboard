@@ -1,0 +1,94 @@
+{
+  "student": {
+    "name": "Alex Chen",
+    "grade": "11th",
+    "kpis": {
+      "focusScore": { "value": "95%", "trend": "+5.2%" },
+      "productivity": { "value": "94%", "trend": "+12%" },
+      "burnoutRisk": { "value": "12%", "trend": "-2.4%" },
+      "academicRisk": { "value": "Low", "trend": null }
+    },
+    "studyStreak": 7,
+    "weeklyProgress": [
+      { "day": "Mon", "focus": 65, "productivity": 40 },
+      { "day": "Tue", "focus": 72, "productivity": 60 },
+      { "day": "Wed", "focus": 85, "productivity": 75 },
+      { "day": "Thu", "focus": 78, "productivity": 80 },
+      { "day": "Fri", "focus": 92, "productivity": 85 },
+      { "day": "Sat", "focus": 88, "productivity": 90 },
+      { "day": "Sun", "focus": 95, "productivity": 94 }
+    ],
+    "aiRecommendations": [
+      { "color": "brand", "text": "Alex's focus peaks between 10 AM and 1 PM. Schedule difficult math modules during this window." },
+      { "color": "emerald", "text": "Consistent 7-day study streak! Reward with a lighter cognitive load tomorrow." }
+    ]
+  },
+  "intelligence": [
+    { "id": 1, "title": "Focus Stability Engine", "icon": "ph-crosshair", "value": "87.4%", "confidence": "94% conf.", "trend": "+2.1% (30m)", "recommendation": "Optimal focus. Maintain current study environment.", "color": "indigo" },
+    { "id": 2, "title": "Cognitive Load Monitor", "icon": "ph-brain", "value": "High", "confidence": "89% conf.", "trend": "Spiked 5m ago", "recommendation": "Complex topic detected. Suggest breaking into smaller chunks.", "color": "purple" },
+    { "id": 3, "title": "Burnout Prediction", "icon": "ph-battery-warning", "value": "14%", "confidence": "98% conf.", "trend": "Stable", "recommendation": "Low risk. Ensure 8 hours of sleep tonight to maintain.", "color": "rose" },
+    { "id": 4, "title": "Time Waste Detection", "icon": "ph-clock", "value": "Low", "confidence": "92% conf.", "trend": "-15% (today)", "recommendation": "Excellent pacing. Minimal idle screen time detected.", "color": "orange" },
+    { "id": 5, "title": "Attention Drift", "icon": "ph-eye", "value": "Detected", "confidence": "76% conf.", "trend": "Minor drifts", "recommendation": "User looking away frequently. Suggest a 5-minute break.", "color": "amber" },
+    { "id": 6, "title": "Frustration Detection", "icon": "ph-shield-warning", "value": "Elevated", "confidence": "81% conf.", "trend": "Rising (10m)", "recommendation": "Rapid erratic clicking detected. Offer hint for current problem.", "color": "red" },
+    { "id": 7, "title": "Study Momentum Tracker", "icon": "ph-lightning", "value": "Peak", "confidence": "95% conf.", "trend": "Sustained", "recommendation": "Flow state achieved. Delay non-critical notifications.", "color": "emerald" },
+    { "id": 8, "title": "Revision Necessity", "icon": "ph-chart-line-up", "value": "Calculus", "confidence": "88% conf.", "trend": "Memory decay", "recommendation": "Spaced repetition needed for 'Derivatives'. Queue next session.", "color": "blue" }
+  ],
+  "teacher": {
+    "atRisk": [
+      { "name": "Sarah Jenkins", "risk": "High", "reason": "Sustained cognitive overload, missed 3 assignments", "subject": "Physics 101", "avatar": "SJ" },
+      { "name": "Michael Chang", "risk": "Medium", "reason": "Attention drift increased by 40% this week", "subject": "Calculus II", "avatar": "MC" },
+      { "name": "Emma Watson", "risk": "Medium", "reason": "Frustration markers detected during exams", "subject": "Organic Chem", "avatar": "EW" }
+    ],
+    "weakTopics": [
+      { "topic": "Thermodynamics", "mastery": 42, "affected": 18 },
+      { "topic": "Integration by Parts", "mastery": 55, "affected": 12 },
+      { "topic": "Kinematics", "mastery": 68, "affected": 8 }
+    ],
+    "heatmapData": [72, 88, 55, 91, 40, 78, 85, 62, 95, 33, 67, 80, 74, 50, 60, 90, 44, 77, 85, 38, 93, 58, 71, 87, 45, 69, 96, 52, 83, 47, 78, 89, 61, 74, 42, 88, 54, 66, 91, 37, 80, 72, 58, 95, 41, 76, 63, 87],
+    "aiInsight": "AI has detected a 15% faster comprehension rate when using visual aids in Physics. Consider updating next week's curriculum to include more graph-based models."
+  },
+  "parent": {
+    "childName": "Alex Chen",
+    "wellnessStatus": "Optimal",
+    "emotional": {
+      "status": "Positive",
+      "description": "Frustration levels have been exceptionally low this week. Alex seems to be enjoying the current curriculum.",
+      "stressLevel": 12
+    },
+    "screenTime": {
+      "productive": 82,
+      "totalHours": 4.5,
+      "productiveHours": 3.7
+    },
+    "studyConsistency": {
+      "score": "9.2",
+      "description": "Alex is highly consistent with evening study routines, maintaining momentum without parent intervention.",
+      "days": [true, true, true, true, true, false, false]
+    },
+    "aiSummary": "Alex has had a remarkable week, particularly in STEM subjects. Attention analytics show a 15% increase in focus stability compared to last month. There are no immediate academic or emotional risks detected. The AI suggests encouraging Alex to take a full rest day this weekend to prevent long-term cognitive fatigue, as study streaks are currently at 7 consecutive days."
+  },
+  "institution": {
+    "kpis": [
+      { "label": "Total Students", "value": "14,205", "trend": "+2.4%", "good": true },
+      { "label": "Active Learners", "value": "12,840", "trend": "+5.1%", "good": true },
+      { "label": "At-Risk Students", "value": "342", "trend": "-12.5%", "good": true },
+      { "label": "Avg Performance", "value": "84.2%", "trend": "+1.2%", "good": true },
+      { "label": "Engagement Index", "value": "9.1/10", "trend": "+0.4", "good": true },
+      { "label": "Dropout Risk", "value": "1.2%", "trend": "-0.5%", "good": true }
+    ],
+    "departments": [
+      { "name": "Engineering", "score": 86, "engagement": 92, "risk": 2.1 },
+      { "name": "Science", "score": 82, "engagement": 88, "risk": 3.5 },
+      { "name": "Arts", "score": 88, "engagement": 95, "risk": 1.2 },
+      { "name": "Business", "score": 81, "engagement": 85, "risk": 4.0 },
+      { "name": "Medicine", "score": 92, "engagement": 96, "risk": 0.8 }
+    ],
+    "highRiskAlert": {
+      "dept": "Business Dept",
+      "message": "The predictive engine has flagged the Business department for a 4.0% dropout risk anomaly. Engagement levels have dropped 12% in the last 3 weeks, specifically correlating with the midterm examination period."
+    },
+    "teachingPeak": {
+      "message": "Medicine department shows a 96% engagement index. The recent shift to case-based adaptive learning paths is yielding a 22% higher retention rate. Recommend scaling this pedagogy to Science dept."
+    }
+  }
+}
