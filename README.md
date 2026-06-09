@@ -1,4 +1,4 @@
-# EduLens AI Learning Intelligence Platform - Frontend
+# EduLens AI Learning Intelligence Platform 
 
 This is a fully isolated frontend-only project for the EduLens AI Learning Intelligence Platform. It serves as a visual representation of the EduLens product experience while remaining frontend-only and easy to run locally, making it perfect for a GitHub portfolio, a hackathon demo UI, or an interactive frontend prototype.
 
