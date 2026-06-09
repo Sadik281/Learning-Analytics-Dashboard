@@ -135,6 +135,7 @@ class EduLensApp {
         <div class="loading-state" style="color: var(--status-danger);">
           <i class="ph ph-warning"></i>
           <p>Failed to load EduLens Engine Data.</p>
+          <small style="font-size: 12px; color: var(--text-secondary);">${error.message}</small>
         </div>
       `;
     }
